@@ -25,3 +25,4 @@ Người thực hiện: [ Tiến Nguyễn ](https://github.com/tiennguyen98)
 * SublimeText 3
 * Coccoc
 * Git
+* [ Google Fonts](https://fonts.google.com/specimen/Varela+Round?selection.family=Varela+Round)

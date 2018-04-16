@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+	font-family: 'VarelaRound-Regular';
+	src: url('../fonts/VarelaRound-Regular.ttf');
+}
+.mobile{
+	width: 540px;
+	margin: auto;
+	background: #FFF;
+	box-shadow: 0 0 40px #000000;
+}
+.container{
+	font-family: 'VarelaRound-Regular';
+	background-image: url('../images/bg.png');
+	background-repeat: no-repeat;
+	padding-top: 100px;
+	background-size: 100% 100%;
+}
+.mb-head{
+	height: 90px;
+	position: relative;
+	padding: 21px 25px 15px 25px;
+	box-sizing: border-box;
+	.mb-head_avatar{
+		width: 12%;
+		float: left;
+		span{
+			width: 50px;
+			height: 50px;
+			display: inline-block;
+			border-radius: 50%;
+			background-color: #000;
+		}
+	}
+	.mb-head_nick{
+		display: inline-block;
+		padding-top: 11px;
+		margin-top: -5px;
+		width: 88%;
+		float: left;
+		a{
+			display: block;
+			color: #000;
+			font-weight: 600;
+			font-size: 18px;
+			text-decoration: none;
+		}
+		span{
+			color: #aeaeae;
+		}
+	}
+	.mb-buttons{
+		display: inline-block;
+		position: absolute;
+		vertical-align: middle;
+		right: 10px;
+		padding-right: 15px;
+		top: 27px;
+		button{
+			display: inline-block;
+			border: 2px solid #42b2fc;
+			border-radius: 5px;
+			color: #42b2fc;
+			background: #FFF;
+			font-weight: bold;
+			text-align: center;
+			width: 120px;
+			margin-right: 25px;
+			height: 35px;
+			&:hover{
+				background: #42b2fc;
+				transition: all .2s;
+				color: #FFF;
+				cursor: pointer;
+			}
+		}
+		img{
+			vertical-align: middle;
+		}
+	}
+}
+.mb-body{
+	height: 535px;
+	background-color: #dfdede;
+	text-align: center;
+	padding-top: 100px;
+	box-sizing: border-box;
+	background-image: url('../images/camera-icon.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.mb-reach{
+	padding: 25px 25px 20px 25px;
+	position: relative;
+	a{
+		diplay: inline-block;
+		padding-right: 15px;
+	}
+	.md-reach_flag{
+		position: absolute;
+		right: 25px;
+		padding-right: 0;
+	}
+}
+.mb-likes{
+	padding-right: 25px;
+	font-weight: bold;
+	padding-left: 25px;
+	font-size: 19px;
+}
+.mb-bottom{
+	padding: 15px 25px 30px 25px;
+	a{
+		color: #356bb4;
+		font-size: 19px;
+	}
+	.auth{
+		display: inline-block;
+		text-decoration: none;
+		margin-right: 45px;
+		color: #000;
+	}
+}
+.credit{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}

@@ -13,7 +13,7 @@ Chú ý tổ chức thư mục :
 Người thực hiện: [ Tiến Nguyễn ](https://github.com/tiennguyen98)
 
 ## Liên kết
-* [ Bài tập Frontend 1.6 ](https://github.com/tiennguyen98/front-end-1.6)
+* [ Bài tập Frontend 1.6 ](https://tiennguyen98.github.io/front-end-1.6/)
 * [ File PSD ](https://github.com/colombo-trainee/trainee_2018/blob/master/frontend/simple%20mobile/159256-OUIMC7-479.psd)
 
 ## Kiến thức nắm được

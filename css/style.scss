@@ -93,7 +93,7 @@
 	background-position: center center;
 }
 .mb-reach{
-	padding: 25px 25px 20px 25px;
+	padding: 25px 0 20px 0;
 	position: relative;
 	a{
 		diplay: inline-block;
@@ -106,13 +106,11 @@
 	}
 }
 .mb-likes{
-	padding-right: 25px;
 	font-weight: bold;
-	padding-left: 25px;
 	font-size: 19px;
 }
 .mb-bottom{
-	padding: 15px 25px 30px 25px;
+	padding: 15px 0 30px 0;
 	a{
 		color: #356bb4;
 		font-size: 19px;
@@ -128,4 +126,8 @@
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 25px;
+}
+footer{
+	padding-left: 25px;
+	padding-right: 25px;
 }
